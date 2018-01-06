@@ -25,8 +25,8 @@ setup(
         "numpy",
         "matplotlib",
         "pyyaml",
-        "pyrouge"
+        "pyrouge",
+        'tensorflow==1.3.0'
     ],
-    extras_require={'tensorflow': ['tensorflow'],
-                    'tensorflow with gpu': ['tensorflow-gpu']},
+    extras_require={'tensorflow with gpu': ['tensorflow-gpu']},
 )
